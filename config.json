@@ -1,0 +1,41 @@
+{
+    "ip_address": "192.168.1.122",
+    "port": 8802,
+    "ip_address2": "192.168.1.220",
+    "port2": 502,
+    "max_speed": 3000,
+    "spdrate": 1.7,
+    "rotation_ratio": 1,
+    "sample_interval": 1,
+    "usesocket2": 1,
+    "modbus_head": [
+        "温度1【℉】",
+        "压力1【bar】",
+        "流量1【sccm】",
+        "振动1【mm/s^2】",
+        "温度2【℃】",
+        "压力2【mpa】",
+        "流量2【slm】",
+        "振动2【mm/s】"
+    ],
+    "modbus_min": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "modbus_max": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+    ]
+}
